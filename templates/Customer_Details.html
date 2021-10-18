@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Customer Details{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="post">
+    <label for="username">First Name</label>
+    <input name="username" id="username" required>
+    <label for="username">Last Name</label>
+    <input type="username" name=" id="username" required>
+    <input type="submit" value="Register Customer!">
+  </form>
+{% endblock %}
